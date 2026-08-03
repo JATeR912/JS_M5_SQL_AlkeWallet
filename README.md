@@ -1,4 +1,3 @@
-<img width="1861" height="967" alt="rollback1" src="https://github.com/user-attachments/assets/cb1909a6-cbc2-4a4f-b4e6-f248d32804de" />
 # Alke Wallet - Base de Datos Relacional
 Proyecto desarrollado para el Módulo 5 (Fundamentos de Bases de Datos Relacionales) del programa Talento digital 2026.
 
