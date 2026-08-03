@@ -3,7 +3,7 @@ Proyecto desarrollado para el Módulo 5 (Fundamentos de Bases de Datos Relaciona
 
 ---
 
-## Bases de datos
+### Bases de datos
 las bases de datos son un conjunto de información organizada bajo un mismo contexto que se almacena para su uso posterior. En el caso de las bases de datos relacionales, la información se estructura en tablas compuestas por filas y columnas, las cuales se conectan entre sí mediante llaves primarias y foráneas.
 
 Entre sus principales ventajas frente a otros modelos destacan:
@@ -14,7 +14,7 @@ Entre sus principales ventajas frente a otros modelos destacan:
 - **Seguridad y control de acceso:** Es sencillo gestionar quién tiene permisos para ver o modificar tablas específicas.
 
 
-## RDBMS LIBRES VS. COMERCIALES
+### RDBMS LIBRES VS. COMERCIALES
 
 Criterio           | RDBMS Libres (Open Source)           | RDBMS Comerciales (Propietarios)
 -------------------|--------------------------------------|--------------------------------------
