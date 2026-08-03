@@ -1,3 +1,4 @@
+<img width="1861" height="967" alt="rollback1" src="https://github.com/user-attachments/assets/cb1909a6-cbc2-4a4f-b4e6-f248d32804de" />
 # Alke Wallet - Base de Datos Relacional
 Proyecto desarrollado para el Módulo 5 (Fundamentos de Bases de Datos Relacionales) del programa Talento digital 2026.
 
@@ -30,6 +31,8 @@ Mantenimiento      | A cargo del equipo de desarrollo     | Incluye parches y se
 Es una base de datos diseñada para transacciones de tipo bancario entre usuarios vinculados a una única moneda, siendo estas tres la tablas principales de la base de datos: **Usuario**, **Moneda** y **Transaccion**.
 
 Se optó por vincular una moneda a cada usuario, estableciendo el peso chileno (CLP) como valor predeterminado. Esto para mantener los estándares actuales de la industria, donde las billeteras virtuales operan con una moneda base por cuenta y gestionan las divisas o importes internacionales mediante cuentas multimoneda o módulos de inversión independientes.
+<img width="1865" height="976" alt="fkUsuarioMoneda" src="https://github.com/user-attachments/assets/c2f4394a-537d-4df9-9dd7-c44f2ab6c5b9" />
+
 
 **Evolución del esquema:** Se añadió el campo fecha_creacion a la tabla Usuario mediante un ALTER TABLE para registrar la fecha de alta de los usuarios y mantener la trazabilidad del sistema sin romper la estructura normalizada.
 
@@ -66,6 +69,8 @@ Para garantizar la integridad de la información, evitar anomalías al insertar,
 
 2. Simulación de error e integridad (ROLLBACK):
 Se probó un bloque transaccional con START TRANSACTION para simular una transferencia. Ante un error en la operación (saldo negativo) o la necesidad de cancelar el proceso, se ejecutó la sentencia ROLLBACK, revirtiendo exitosamente todos los UPDATE realizados y manteniendo la integridad de los saldos de los usuarios.
+<img width="48%" alt="rollback1" src="https://github.com/user-attachments/assets/0c53c21e-6a57-4d9f-9d40-2262782caef6" />
+<img width="48%" alt="rollback2EjecucionRollback" src="https://github.com/user-attachments/assets/e18256dd-0172-43ba-8a80-1aefb99bd491" />
 
 
 ## Instrucciones de ejecución:
